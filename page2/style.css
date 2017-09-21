@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    flex-direction: column;
+}
+
+
+header {
+    height: 100px;
+    background-color: orangered;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    min-height: 800px;
+    margin: 10px;
+    border: 2px solid silver;
+    width: 75%;    
+}
+
+.sidebar {
+    display: flex;
+    min-height: 800px;
+    margin: 10px;
+    border: 2px solid silver;
+    width: 25%;  
+}
+
+footer {
+    height: 200px;
+    background-color: #333;
+    width: 100%;
+}
